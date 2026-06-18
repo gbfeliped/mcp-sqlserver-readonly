@@ -51,7 +51,7 @@ Add to `%APPDATA%\Claude\claude_desktop_config.json`:
   "mcpServers": {
     "sqlserver": {
       "command": "node",
-      "args": ["C:/Users/gabri/OneDrive/Documentos/mcp-sqlserver/dist/index.js"],
+      "args": ["../path-to/mcp-sqlserver/dist/index.js"],
       "env": {
         "MSSQL_SERVER": "localhost",
         "MSSQL_DATABASE": "MyDatabase",
